@@ -1,0 +1,14 @@
+# Path
+export PATH=$PATH:/usr/bin
+
+# Utils I may have written
+export PATH=$PATH:/home/franco/Developer/Utils
+
+# For sublime command
+export PATH=$PATH:~/Developer/SublimeText2
+
+# NodeJS environment variables
+export NODE_ENV=development
+
+# Ruby
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

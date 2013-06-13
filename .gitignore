@@ -1,0 +1,12 @@
+#Ignore everything
+*
+
+#But:
+!.bashrc
+!.bash_prompt
+!.aliases
+!.exports
+!.functions
+!.gitconfig
+!.gitignore
+!.vimrc

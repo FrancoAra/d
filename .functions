@@ -1,0 +1,4 @@
+# Tunnels HTTP from http://francoara-t.tunnlr.com to any port set in the first argument.
+function tunnlr () { 
+	ssh -nNT -g -R :12830:0.0.0.0:"$@" tunnlr3610@ssh1.tunnlr.com ;
+}

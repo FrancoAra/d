@@ -2,13 +2,13 @@
 export PATH=$PATH:/usr/bin
 
 # Utils I may have written
-export PATH=$PATH:/home/franco/Developer/Utils
+export PATH=$PATH:$HOME/Developer/utils
 
-# For sublime command
-export PATH=$PATH:~/Developer/SublimeText2
+# Google Cloud Utils
+export PATH=$PATH:$HOME/Developer/gcutil
+
+# Redis
+export PATH=$PATH:$HOME/Developer/redis/src
 
 # NodeJS environment variables
 export NODE_ENV=development
-
-# Ruby
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

@@ -1,13 +1,14 @@
 # Path
 export PATH=$PATH:/usr/bin
 # Utils I may have written
-export PATH=$PATH:$HOME/Developer/utils
+export PATH=$PATH:$HOME/repos-private/utils
 # Google Cloud Utils
 export PATH=$PATH:$HOME/Developer/gcutil
+# Google Cloud SQL
+export PATH=$PATH:$HOME/Developer/google-sql-tool
 # Redis
 export PATH=$PATH:$HOME/Developer/redis/src
 # NodeJS environment variables
 export NODE_ENV=development
-
 # MAC # Sublime Text 2
 export PATH=$PATH:/Applications/"Sublime Text 2.app"/Contents/SharedSupport/bin

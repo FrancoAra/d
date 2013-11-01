@@ -1,16 +1,3 @@
-
-# Apache server
-alias apache="sudo /etc/init.d/apache2"
-
-# Redman Tech
-alias rmdb="ssh -nNTf -L 1337:mysql-1:3306 web10"
-alias sv4="rsync -avz -e ssh --exclude 'scripts/*' --exclude '.git' --exclude '*.DS_Store' --exclude 'config/website.yml' --exclude 'scripts/' ~/Developer/RedmanTech/v4engine web10:/home/francoa"
-alias rmfb="cd ~/Developer/RedmanTech/facebook-fanpage-app"
-alias rmv4="cd ~/Developer/RedmanTech/v4engine"
-
-# Maestro Martino
-alias mmweb="cd ~/Developer/MaestroMartino/mm-web"
-
 # `cat` with beautiful colors. requires Pygments installed.
 alias c='pygmentize -O style=monokai -f console256 -g'
 

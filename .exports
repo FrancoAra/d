@@ -1,9 +1,6 @@
 # Path
 export PATH=$PATH:/usr/bin
 export PATH=$PATH:/usr/lib
-# Utils I may have written
-export PATH=$PATH:$HOME/.scripts
+export PATH=$PATH:$HOME/Library
 # NodeJS environment variables
 export NODE_ENV=development
-# gcutils
-export PATH=$PATH:/usr/local/gcutil-1.8.2

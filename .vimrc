@@ -23,7 +23,7 @@ Bundle 'gmarik/vundle'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'derekwyatt/vim-scala'
 Bundle 'flazz/vim-colorschemes'
-
+Bundle 'terryma/vim-multiple-cursors'
 colorscheme jelleybeans
 filetype plugin indent on     " required!
 "

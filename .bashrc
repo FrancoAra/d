@@ -6,3 +6,6 @@ done
 unset file
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+export PATH=/home/franco/Library/google-cloud-sdk/bin:$PATH

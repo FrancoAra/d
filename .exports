@@ -5,5 +5,7 @@ export PATH=$PATH:/usr/lib
 export PATH=$PATH:$HOME/Library
 export PATH=$PATH:$HOME/Library/sbt-0.13.0
 export PATH=$PATH:$HOME/Library/play-2.2.1
+export PATH=$PATH:$HOME/Library/play-2.1.5
+export PATH=$PATH:$HOME/Library/neo4j-community-2.0.1/bin
 # NodeJS environment variables
 export NODE_ENV=development

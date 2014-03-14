@@ -25,7 +25,7 @@ Bundle 'derekwyatt/vim-scala'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'digitaltoad/vim-jade'
-colorscheme jelleybeans
+colorscheme jellybeans
 filetype plugin indent on     " required!
 "
 " Brief help

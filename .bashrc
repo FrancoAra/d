@@ -4,6 +4,10 @@ for file in ~/.{extra,bash_prompt,exports,aliases,functions}; do
 	[ -r "$file" ] && source "$file"
 done
 unset file
+
+# Vi like commands for bash
+set -o vi
+
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 

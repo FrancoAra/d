@@ -1,5 +1,3 @@
-alias vc00='gcutil --service_version="v1beta16" --project="vidtecci-cloud" ssh  --zone="us-central1-a" "vc00"'
-
 # `cat` with beautiful colors. requires Pygments installed.
 alias c='pygmentize -O style=monokai -f console256 -g'
 

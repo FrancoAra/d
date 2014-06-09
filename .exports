@@ -4,8 +4,8 @@ export PATH=$PATH:/usr/lib
 export PATH=$PATH:/usr/local/heroku/bin
 # Library
 export PATH=$PATH:$HOME/Library
-export PATH=$PATH:$HOME/Library/sbt-0.13.0
-export PATH=$PATH:$HOME/Library/play-2.2.1
+export PATH=$PATH:$HOME/Library/sbt/bin
+export PATH=$PATH:$HOME/Library/play-2.2.3
 export PATH=$PATH:$HOME/Library/play-2.1.5
 export PATH=$PATH:$HOME/Library/neo4j-v2.0.1/bin
 # NodeJS environment variable

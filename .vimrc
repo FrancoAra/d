@@ -6,7 +6,8 @@ set softtabstop=2
 " Misc.
 set cpoptions+=$ " Adds a $ to the text you're changing 
 set number
-
+" vim-markdown
+let g:vim_markdown_folding_disabled=1
 """"""""""""""""""""""""""""""""""""""""
 "" Vundle
 ""
@@ -33,6 +34,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'digitaltoad/vim-jade'
+Plugin 'plasticboy/vim-markdown'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

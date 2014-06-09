@@ -1,3 +1,10 @@
+# Reumobile Stuff
+alias census-control='gcutil addinstance census-control --disk=census-control-disk,boot --service_account_scope=compute-rw --network=census-framework --zone=us-central1-a --machine_type=n1-highcpu-2'
+
+alias census-engine-test='gcutil addinstance census-engine-test --disk=census-engine-disk,boot --service_account_scope=storage-ro --network=census-framework --zone=us-central1-a --machine_type=n1-highcpu-2'
+
+alias gamingfactorleague='gcutil addinstance gamingfactorleague --service_account_scope=storage-ro --disk=gamingfactorleague,boot --network=default --zone=us-central1-a --machine_type=g1-small --external_ip_address=23.251.153.123'
+
 # `cat` with beautiful colors. requires Pygments installed.
 alias c='pygmentize -O style=monokai -f console256 -g'
 

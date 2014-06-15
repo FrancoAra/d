@@ -2,6 +2,7 @@
 *
 
 #But:
+!.npmrc
 !.bashrc
 !.bash_prompt
 !.aliases

@@ -4,6 +4,7 @@ export PATH=$PATH:/usr/lib
 export PATH=$PATH:/usr/local/heroku/bin
 # Library
 export PATH=$PATH:$HOME/Library
+export PATH=$PATH:$HOME/Library/npm/bin
 export PATH=$PATH:$HOME/Library/sbt/bin
 export PATH=$PATH:$HOME/Library/play-2.2.3
 export PATH=$PATH:$HOME/Library/play-2.1.5

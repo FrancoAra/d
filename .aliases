@@ -5,6 +5,8 @@ alias census-engine-test='gcutil addinstance census-engine-test --disk=census-en
 
 alias gamingfactorleague='gcutil addinstance gamingfactorleague --service_account_scope=storage-ro --disk=gamingfactorleague,boot --network=default --zone=us-central1-a --machine_type=g1-small --external_ip_address=23.251.153.123'
 
+alias webcore='gcutil addinstance webcore --service_account_scope=storage-ro --disk=webcore,boot --network=webcore --zone=us-central1-a --machine_type=g1-small --external_ip_address=199.223.233.181'
+
 # `cat` with beautiful colors. requires Pygments installed.
 alias c='pygmentize -O style=monokai -f console256 -g'
 

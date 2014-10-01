@@ -3,11 +3,13 @@ alias census-neo4j='gcutil addinstance census-neo4j --disk=census-control-neo4j,
 
 alias census-control='gcutil addinstance census-control --disk=census-control-disk,boot --service_account_scope=compute-rw --network=census-framework --zone=us-central1-a --machine_type=n1-highcpu-2'
 
-alias census-engine-test='gcutil addinstance census-engine-test --disk=census-engine-disk,boot --service_account_scope=storage-ro --network=census-framework --zone=us-central1-a --machine_type=n1-highcpu-2'
+alias census-engine='gcutil addinstance census-engine --disk=census-engine-disk,boot --service_account_scope=storage-ro --network=census-framework --zone=us-central1-a --machine_type=n1-highcpu-2'
 
 alias gamingfactorleague='gcutil addinstance gamingfactorleague --service_account_scope=storage-ro --disk=gamingfactorleague,boot --network=default --zone=us-central1-a --machine_type=g1-small --external_ip_address=23.251.153.123'
 
-alias webcore='gcutil addinstance webcore --service_account_scope=storage-ro --disk=webcore,boot --network=webcore --zone=us-central1-a --machine_type=g1-small --external_ip_address=199.223.233.181'
+alias webcore='gcutil addinstance kiki-minecraft --disk=kiki-minecraft ,boot --network=kikihqminecraft --zone=us-central1-a --machine_type=g1-small --external_ip_address=162.222.183.204'
+
+alias webcore='gcutil addinstance webcore --service_account_scope=storage-ro --disk=webcore,boot --network=webcore --zone=us-central1-a --machine_type=f1-micro --external_ip_address=199.223.233.181'
 
 # `cat` with beautiful colors. requires Pygments installed.
 alias c='pygmentize -O style=monokai -f console256 -g'

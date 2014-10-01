@@ -29,8 +29,14 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+" Fast markup
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" Multiple cursors
 Plugin 'terryma/vim-multiple-cursors'
+" Visual markers +
+Plugin 'kshenoy/vim-signature'
+
+" Code coloring
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'digitaltoad/vim-jade'

@@ -7,9 +7,3 @@ unset file
 
 # Vi like commands for bash
 set -o vi
-
-# The next line updates PATH for the Google Cloud SDK.
-source '/root/google-cloud-sdk/path.bash.inc'
-
-# The next line enables bash completion for gcloud.
-source '/root/google-cloud-sdk/completion.bash.inc'

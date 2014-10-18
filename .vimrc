@@ -8,6 +8,7 @@ set cpoptions+=$ " Adds a $ to the text you're changing
 set number
 " vim-markdown
 let g:vim_markdown_folding_disabled=1
+
 """"""""""""""""""""""""""""""""""""""""
 "" Vundle
 ""
@@ -28,16 +29,14 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-
 " Fast markup
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Multiple cursors
 Plugin 'terryma/vim-multiple-cursors'
 " Visual markers +
 Plugin 'kshenoy/vim-signature'
-
 " Code coloring
-Plugin 'altercation/vim-colors-solarized'
+Plugin 'flazz/vim-colorschemes'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'plasticboy/vim-markdown'
@@ -61,41 +60,5 @@ filetype plugin indent on    " required
 "" Colorschemes Area! :D
 ""
 """"""""""""""""""""""""""""""""""""""""
-
-"" Set up solarized for Gnome terminal:
-"" ====================================
-"" Solarized dark
-"" --------------
-"" cd
-"" wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/master/dircolors.ansi-dark
-"" mv dircolors.ansi-dark .dircolors
-"" eval `dircolors ~/.dircolors`
-""
-"" Solarized light
-"" ---------------
-"" cd
-"" wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/master/dircolors.ansi-light
-"" mv dircolors.ansi-light .dircolors
-"" eval `dircolors ~/.dircolors`
-""
-"" Then, set up Solarized for GNOME Terminal:
-""
-"" sudo apt-get install git-core
-"" git clone https://github.com/sigurdga/gnome-terminal-colors-solarized.git
-"" cd gnome-terminal-colors-solarized
-""
-"" And now you can set it to light or dark using the following commands:
-""
-"" ./set_dark.sh
-"" ./set_light.sh
-""
-"" Note: for Gnome Terminal in Ubuntu 11.04, I've also had to edit some settings to remove the transparency:
-"" Edit > Profile Preferences, on the "Background" tab uncheck "Use background settings from system theme"
-"" and then select "Solid color".
-""
-"" Source: http://www.webupd8.org/2011/04/solarized-must-have-color-paletter-for.html
-
-" Color scheme.
 syntax on
-colorscheme solarized
-set background=dark
+colorscheme Monokai

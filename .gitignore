@@ -2,12 +2,10 @@
 *
 
 #But:
-!.npmrc
 !.bashrc
 !.bash_prompt
-!.aliases
-!.exports
-!.functions
 !.gitconfig
 !.gitignore
 !.vimrc
+!/.setups
+!/.setups/*.sh

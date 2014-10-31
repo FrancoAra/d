@@ -33,6 +33,8 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Multiple cursors
 Plugin 'terryma/vim-multiple-cursors'
+let g:multi_cursor_use_default_mapping=0
+let g:multi_cursor_next_key='<C-l>'
 " Visual markers +
 Plugin 'kshenoy/vim-signature'
 " Code coloring

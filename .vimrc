@@ -6,8 +6,19 @@ set softtabstop=2
 " Misc.
 set cpoptions+=$ " Adds a $ to the text you're changing 
 set number
+" Easier tabs
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 " vim-markdown
 let g:vim_markdown_folding_disabled=1
+" vim-multiple-cursors
+let g:multi_cursor_use_default_mapping=0
+let g:multi_cursor_next_key='<C-l>'
+let g:multi_cursor_prev_key='<C-p>'
+let g:multi_cursor_skip_key='<C-x>'
+let g:multi_cursor_quit_key='<Esc>'
 
 """"""""""""""""""""""""""""""""""""""""
 "" Vundle
@@ -29,15 +40,13 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
+
+" Git stuff
+Plugin 'tpope/vim-fugitive'
 " Fast markup
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Multiple cursors
 Plugin 'terryma/vim-multiple-cursors'
-let g:multi_cursor_use_default_mapping=0
-let g:multi_cursor_next_key='<C-l>'
-let g:multi_cursor_prev_key='<C-p>'
-let g:multi_cursor_skip_key='<C-x>'
-let g:multi_cursor_quit_key='<Esc>'
 " Visual markers +
 Plugin 'kshenoy/vim-signature'
 " Code coloring

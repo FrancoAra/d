@@ -54,6 +54,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'lervag/vim-latex'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

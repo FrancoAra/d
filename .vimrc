@@ -3,6 +3,8 @@ set expandtab
 set shiftwidth=2
 set tabstop=2
 set softtabstop=2
+" Color for 80 columns
+execute "set colorcolumn=" . join(range(81,335), ',')
 " Misc.
 set cpoptions+=$ " Adds a $ to the text you're changing 
 set number
